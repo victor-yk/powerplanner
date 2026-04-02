@@ -8,7 +8,7 @@ import About from './components/About';
 
 function App() {
   const [activeTab, setActiveTab] = useState('weekly');
-  const [light, setLight] = useState(false);
+  const [light, setLight] = useState(true);
   const [tabKey, setTabKey] = useState(0);
 
   useEffect(() => {
